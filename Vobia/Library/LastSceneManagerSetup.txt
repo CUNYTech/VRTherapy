@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/NatureStarterKit2/Scene/Demo.unity
+- path: Assets/NatureStartingscene1.unity
   isLoaded: 1
   isActive: 1
