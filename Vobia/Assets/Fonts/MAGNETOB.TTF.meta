@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: d5b6f42cd0759fe4c877d12ce20a1fe4
+timeCreated: 1521070612
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Magneto
+  fontNames:
+  - Magneto
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1b14cb34b3131e4478a99dd062c0dc2d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
