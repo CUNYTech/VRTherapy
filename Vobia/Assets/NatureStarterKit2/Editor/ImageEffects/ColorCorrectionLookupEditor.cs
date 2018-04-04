@@ -51,7 +51,10 @@ namespace UnityStandardAssets.ImageEffects
                     if (textureImporter.mipmapEnabled == true) {
                         doImport = true;
                     }
-                    if (textureImporter.textureFormat != TextureImporterFormat.AutomaticTruecolor) {
+#pragma warning disable CS0618 // Type or member is obsolete
+                    if (textureImporter.textureFormat != TextureImporterFormat.AutomaticTruecolor)
+                    {
+#pragma warning restore CS0618 // Type or member is obsolete
                         doImport = true;
                     }
 
@@ -59,7 +62,9 @@ namespace UnityStandardAssets.ImageEffects
                     {
                         textureImporter.isReadable = true;
                         textureImporter.mipmapEnabled = false;
+#pragma warning disable CS0618 // Type or member is obsolete
                         textureImporter.textureFormat = TextureImporterFormat.AutomaticTruecolor;
+#pragma warning restore CS0618 // Type or member is obsolete
                         AssetDatabase.ImportAsset (path, ImportAssetOptions.ForceUpdate);
                         //tex = AssetDatabase.LoadMainAssetAtPath(path);
                     }
