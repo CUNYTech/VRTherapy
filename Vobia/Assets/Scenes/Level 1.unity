@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -372,12 +372,13 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 436420883}
-  m_Text: "Please Look down \nwhen you are ready"
+  m_Text: "Please look down when you are\n ready. There is a photo of a cute\nspider
+    on the desk in front of you. "
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
   m_Anchor: 4
-  m_Alignment: 0
+  m_Alignment: 1
   m_TabSize: 0
   m_FontSize: 20
   m_FontStyle: 1
@@ -426,13 +427,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 436420883}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.201, y: 0.774, z: -7.687}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0063475706, w: 0.9999799}
+  m_LocalPosition: {x: 0.142, y: 1.222, z: -7.687}
   m_LocalScale: {x: 0.0625, y: 0.0625, z: 0.0625}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.72700006}
 --- !u!1001 &443078452
 Prefab:
   m_ObjectHideFlags: 0
@@ -705,13 +706,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1244115884}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.00019694965, y: -0.000021932097, z: 0.0065950397, w: 0.9999783}
   m_LocalPosition: {x: 0.39, y: 1, z: -6.41}
   m_LocalScale: {x: 5.4443994, y: 2.8407922, z: 0.036452442}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.023000002, y: -0.002, z: 0.75600004}
 --- !u!1 &1444155375
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,7 +791,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1444155375}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 3.08, y: 1, z: -8.73}
+  m_LocalPosition: {x: 3.08, y: 0.988, z: -8.73}
   m_LocalScale: {x: 4.9210706, y: 2.731854, z: 0.036452442}
   m_Children: []
   m_Father: {fileID: 0}
@@ -871,15 +872,15 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1524546105}
-  m_LocalRotation: {x: -0.0039043222, y: 0.0009965874, z: 0.003335975, w: 0.99998635}
-  m_LocalPosition: {x: 0, y: 0.8, z: -8.83}
+  m_LocalRotation: {x: -0.0039068735, y: 0.000986539, z: 0.00076314626, w: 0.99999166}
+  m_LocalPosition: {x: -0.001, y: 0.797, z: -9.271}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 443078453}
   - {fileID: 231909858}
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -0.448, y: 0.113000005, z: 0.38200003}
+  m_LocalEulerAnglesHint: {x: -0.448, y: 0.113000005, z: 0.087000005}
 --- !u!114 &1524546110
 MonoBehaviour:
   m_ObjectHideFlags: 0
