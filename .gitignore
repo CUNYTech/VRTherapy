@@ -1,9 +1,10 @@
-/Library/*
+Vobia/Library/*
 /Temp/
 /Obj/
 /Build/
 /Builds/
 /Assets/AssetStoreTools*
+Vobia/Assets/*
 
 # Visual Studio 2015 cache directory
 /.vs/
