@@ -11,9 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menuscene2.unity
     guid: bbf07452018c35a4ab8bc92fc2b51ba9
-  - enabled: 1
-    path: Assets/Scenes/Level 1.unity
-    guid: 1b86380e4be8341a6839b9b98864fc91
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Level10Challenge.unity
     guid: 5ec581e5f01f44e6ea02e3921ee2501a
