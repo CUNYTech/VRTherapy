@@ -21,4 +21,9 @@ public class animController : MonoBehaviour {
         Anim.Play("CubeAnimation"); //calling the bool for the animation
 
     }
+
+    private void OnDisable()
+    {
+        Application.Quit();
+    }
 }
