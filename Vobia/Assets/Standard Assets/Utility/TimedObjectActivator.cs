@@ -75,11 +75,12 @@ namespace UnityStandardAssets.Utility
             entry.target.SetActive(false);
         }
 
-
+        //reloading the level
         private IEnumerator ReloadLevel(Entry entry)
         {
             yield return new WaitForSeconds(entry.delay);
-            Application.LoadLevel(Application.loadedLevel);
+
+            UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
